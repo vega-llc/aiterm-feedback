@@ -1,0 +1,97 @@
+name: 🐞 Bug report
+description: Something in AITerm broke or behaved unexpectedly
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make AITerm better! Please fill this out so the bug is reproducible.
+        **Tip:** search existing issues first — duplicates don't count toward the tester reward.
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before you file
+      options:
+        - label: I'm on the latest version of AITerm (Help ▸ Check for Updates…)
+          required: true
+        - label: I searched existing issues and this isn't a duplicate
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you see go wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Exact steps so I can reproduce it on my machine.
+      placeholder: |
+        1. Open AITerm
+        2. Type "…"
+        3. Approve the proposed command
+        4. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: e.g. macOS 14.5 Sonoma
+    validations:
+      required: true
+  - type: dropdown
+    id: chip
+    attributes:
+      label: Mac chip
+      options:
+        - Apple Silicon (M1)
+        - Apple Silicon (M2)
+        - Apple Silicon (M3)
+        - Apple Silicon (M4)
+        - Other / not sure
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: AITerm version
+      description: Find it in AITerm ▸ About AITerm
+      placeholder: e.g. 0.10.0
+    validations:
+      required: true
+  - type: dropdown
+    id: provider
+    attributes:
+      label: AI provider in use
+      options:
+        - Local model (Ollama)
+        - Bring-your-own cloud key — OpenAI-compatible
+        - Bring-your-own cloud key — OpenRouter
+        - Bring-your-own cloud key — Groq
+        - Bring-your-own cloud key — DeepSeek
+        - Bring-your-own cloud key — xAI
+        - Bring-your-own cloud key — Mistral
+        - Bring-your-own cloud key — Gemini
+        - Bring-your-own cloud key — Amazon Bedrock
+        - Pro — Claude Code CLI
+        - Pro — Codex CLI
+        - Not applicable / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Logs, screenshots, anything else
+      description: Optional. Drag images here. Please redact any API keys or secrets before posting.
+    validations:
+      required: false

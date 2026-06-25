@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 AITerm website & download
+    url: https://ai-term.com
+    about: Download the latest version and read the docs.
+  - name: ✉️ Email support
+    url: mailto:support@ai-term.com
+    about: Prefer email, or have something private/security-related to report? Reach me here.
