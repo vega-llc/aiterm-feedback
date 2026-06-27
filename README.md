@@ -1,6 +1,6 @@
 # AITerm — Feedback & Bug Tracker
 
-This is the public bug tracker and feedback hub for **[AITerm](https://ai-term.com)** — a native macOS terminal with an AI assistant built into the command loop (propose → approve → run).
+This is the public bug tracker and feedback hub for **[AITerm](https://ai-term.com)** — a native macOS terminal with an AI agent built into the command loop. Type plain English and it proposes a command you approve; or hand it a goal with `/agent` (approve each step) or `/auto` (Autopilot — only provably-safe steps run on their own, risky ones pause), all behind one safety gate.
 
 > AITerm's source isn't public, but its bug tracking is. File an issue here and you'll see exactly what's been reported, what's fixed, and what's coming.
 
