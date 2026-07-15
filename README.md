@@ -6,13 +6,13 @@ This is the public bug tracker and feedback hub for **[AITerm](https://ai-term.c
 
 ## 🐞 Found a bug?
 
-[**Open a bug report →**](https://github.com/DRVBSS/aiterm-feedback/issues/new?template=bug_report.yml)
+[**Open a bug report →**](https://github.com/vega-llc/aiterm-feedback/issues/new?template=bug_report.yml)
 
 Reproducible reports help the most — steps to reproduce, what you expected, what actually happened, plus your macOS version, Mac chip, and which AI provider you were using.
 
 ## 💡 Have an idea?
 
-[**Suggest a feature →**](https://github.com/DRVBSS/aiterm-feedback/issues/new?template=feature_request.yml)
+[**Suggest a feature →**](https://github.com/vega-llc/aiterm-feedback/issues/new?template=feature_request.yml)
 
 ## Download AITerm
 
